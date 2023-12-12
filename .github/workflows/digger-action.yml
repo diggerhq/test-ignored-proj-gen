@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: digger run
-        uses: diggerhq/digger@fix/stricter-matching-in-traversal
+        uses: diggerhq/digger@v0.3.4
         with:
           no-backend: true
           disable-locking: true
