@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: digger run
-        uses: diggerhq/digger@debug/generate-no-projects-affected
+        uses: diggerhq/digger@fix/generate-no-projects-detected-filepath-match
         with:
           no-backend: true
           disable-locking: true
